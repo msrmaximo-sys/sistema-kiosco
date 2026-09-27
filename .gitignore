@@ -1,0 +1,61 @@
+# Python y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# SQLite: datos del negocio y archivos auxiliares
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.sql
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+.streamlit/*
+!.streamlit/config.example.toml
+!.streamlit/secrets.example.toml
+*.pem
+*.key
+
+# Copias, exportaciones y material privado
+backups/
+exports/
+private/
+.local/
+artifacts/
+*backup*.json
+*copia_seguridad*.json
+*.csv
+*.xlsx
+*.log
+*.zip
+*.7z
+
+# Lanzador personal; iniciar.bat es el lanzador compartible
+/AbrirKiosco.bat
+
+# Herramientas y sistema operativo
+.codex/
+.agents/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
